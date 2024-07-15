@@ -29,7 +29,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # Set the OpenAI API key
-os.environ['OPENAI_API_KEY'] = os.getenv('OPENAI_API_KEY')
+#os.environ['OPENAI_API_KEY'] = os.getenv('OPENAI_API_KEY')
 #os.environ['OPENAI_API_KEY'] = 'sk-proj-RPwWpkjMpNfJKeTSaVJHT3BlbkFJv5NTVALMN2mVqEl85iqq'
 
 # Apply nest_asyncio
